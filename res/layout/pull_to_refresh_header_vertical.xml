@@ -13,7 +13,10 @@
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left|center_vertical" >
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="8dp"
+             >
 
             <ImageView
                 android:id="@+id/pull_to_refresh_image"
@@ -46,7 +49,7 @@
                 android:singleLine="true"
                 android:textAppearance="?android:attr/textAppearance"
                 android:textStyle="bold" 
-                android:text="111"
+                android:textColor="#3399FF"
                 />
 
             <TextView
@@ -56,7 +59,7 @@
                 android:singleLine="true"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:visibility="gone" 
-                android:text="2222"/>
+                />
         </LinearLayout>
     </FrameLayout>
 
